@@ -18,3 +18,4 @@ else
 	echo 'Esempio prova'
 	echo "Target: $TARGET"
 fi
+rm simple-container-benchmarks-writetest
