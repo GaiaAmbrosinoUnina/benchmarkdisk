@@ -11,7 +11,7 @@ then
 	        for i in `seq 1 20`; do
             echo numero: $i
 	    echo $(dd bs=1M count=1024 if=/dev/zero of=/simple-container-benchmarks-writetest conv=fdatasync)
-	    echo $(free | head -2)
+	    free | head -2
         done
 	#(time dd bs=1M count=1024 if=/dev/zero of=/simple-container-benchmarks-writetest conv=fdatasync) >> /var/lib/mysql/prova.txt
 	
